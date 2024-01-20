@@ -17,7 +17,7 @@ llm_chain =LLMChain (prompt =prompt ,verbose =True ,llm =llm )#line:24
 def has_num (OOOO00O00000OOO0O ):#line:26
     return any (OOOO00O00000OOO0O .isnumeric ()for OOO0000OO000O0OOO in OOOO00O00000OOO0O )#line:27
 def chat (OOO00O000OOO0000O ):#line:29
-    if 'dhairysheel'in OOO00O000OOO0000O :#line:30
+    if 'dhairysheel'in OOO00O000OOO0000O  or 'Dhairysheel' in OOO00O000OOO0000O:#line:30
         return """
 Dhairysheel Durgule is a young data science enthusiast from India, making waves in the tech world as a 9th-grade IGCSE student. He's on a mission to redefine what's possible in the field, driven by a belief that age is just a number when it comes to passion and innovation.
 
