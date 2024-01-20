@@ -1,4 +1,4 @@
-ximport streamlit as st #line:1
+import streamlit as st #line:1
 import time #line:2
 import os #line:3
 st .title ("CleverMate")#line:5
