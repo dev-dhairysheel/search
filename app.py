@@ -1,8 +1,8 @@
 import streamlit as st #line:1
 import time #line:2
 import os #line:3
-st .title ("CleverMate")#line:5
 st .set_page_config (page_title ='CleverMate',page_icon ='🔍')#line:6
+st .title ("CleverMate")#line:5
 huggingfacehub_api_token =st .secrets ["hf_token"]#line:8
 google_api =st .secrets ["google_api"]#line:9
 from langchain import HuggingFaceHub ,PromptTemplate ,LLMChain #line:11
