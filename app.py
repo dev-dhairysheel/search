@@ -4,7 +4,7 @@ import os #line:3
 st .title ("CleverMate")#line:5
 huggingfacehub_api_token =st .secrets ["hf_token"]#line:8
 from langchain import HuggingFaceHub ,PromptTemplate ,LLMChain #line:10
-repo_id ="tiiuae/falcon-7b-instruct"#line:12
+repo_id ="tiiuae/falcon-180B"#line:12
 llm =HuggingFaceHub (huggingfacehub_api_token =huggingfacehub_api_token ,repo_id =repo_id ,model_kwargs ={"temperature":0.2 ,"max_new_tokens":2000 })#line:14
 template ="""
 You are an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
